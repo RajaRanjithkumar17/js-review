@@ -1,0 +1,15 @@
+button{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 10px 10px;
+    border: 1px solid salmon;
+    font-size: 32px;
+}
