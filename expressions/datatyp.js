@@ -1,12 +1,71 @@
+var x=10;
+var y='status';
+var z="";
+var z=[1,2,3,4]
+
+console.log(1>2 && 1<2
+
+
+
+
+
+var x=2;
+if(x>21){ console.log("eligible for marriage")}
+else{
+console.log(" not eligible for marriage")
+}
+
+
+
+// nested if
+
+
+var x=22;
+if(x>21){
+	var gender="female";
+
+
+	if(gender=="female"){
+		console.log("eligible for marriage")
+	}
+	else{
+console.log(" not eligible for marriage")
+ }
+}
+else{
+console.log(" not eligible for marriage")
+}
+
+
+
+
+
+
+var a=10;
+switch (a){
+	case 0:
+	console.log("zero")
+	case 1:
+	console.log("one")
+	case 10:
+	console.log("ten")
+}
+
+
+
+
+
+
+
 // addition
 var x=20;
 var y=20;
 var z=x+y;
 console.log(z);
-// 2 subraction
+//  subraction
 
 console.log(z=x-y);
-// 3 multiplication
+//  multiplication
 
 console.log(z=x*y);
 // divide
@@ -14,17 +73,21 @@ console.log(z=x*y);
 console.log(z=x/y);
 
 
-//  calculate Area of Circle 
+//  calculate Area of Circle
 // let dia of circle=50mm
 var r=25;
 var Area= Math.PI* r**2;
 console.log(Area);
+
+
 // calculate Area of  Triangle
 // let height= 20mm, base=10mm
 var height=20;
 var base=10;
 var Area =  (height*base)/2
 console.log(Area);
+
+
 // Calculating Simple Interest
 // let Principal Amount=10000/-
 //  Rate of Interest per year in decimal; r = R/100
@@ -35,10 +98,15 @@ var r=0.1;
 var t=6;
 var Interest = P*r*t;
 console.log(Interest);
+
+
+
 // Calculating Square
 var r=25;
 var square=r**2;
 console.log(square);
+
+
 //  calculate total and average
 var a=10;
 var b=20;
@@ -57,7 +125,7 @@ else{console.log("not");}
 
 // Number even or odd
 var array=11;
-if(array%2==0)
+if(array%2!=0)
 {console.log("odd");}
 else{console.log("even");}
 
@@ -81,12 +149,4 @@ switch (mani,ram){
         case ram>70  :
 	console.log("b")
 }
-	
-	
-	
-	
-
-
-
-
-
+	}
