@@ -23,36 +23,37 @@ if (num1> num2){
 	else{
 		console.log("num1 is smaller")
 }
-if (num2>num1{
+if (num2>num1){
 	if (num2num3){
 		if(num3num4)
-		{console.log(" larger number is "+ num2}
+		{console.log(" larger number is "+ num2)}
         	else{
 		console.log("num1 is smaller")
 	}}
 	else{
 		console.log("num1 is smaller")
 }
-if (num3>num1{
-	if (num3>num2{
-		if(num3>num4
-		{console.log(" larger number is "+ num3}
+if (num3>num1)
+	if (num3>num2){
+		if(num3>num4)
+		{console.log(" larger number is "+ num3)}
         	else{
 		console.log("num1 is smaller")
 	}}
 	else{
 		console.log("num1 is smaller")
 }
-if (num4>num1{
+if (num4>num1){
 	if (num4>num2)
 		if(num4>num3)
-		{console.log(" larger number is "+ num4}
+		{console.log(" larger number is "+ num4)}
         	else{
 		console.log("num1 is smaller")
 	}}
 	else{
 		console.log("num1 is smaller")
 }
+}}
 
 
 
@@ -104,4 +105,3 @@ if  (number3>number1){
 	      else (number3>number2)
 {console.log(number1)}}
 else {console.log(number3)}
-	  	
