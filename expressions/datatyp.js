@@ -105,7 +105,7 @@ console.log(Interest
 
 // Calculating Square
 var r=25;
-var square=r**2;
+var square=Math.pow(r,2);
 console.log(square);
 
 
@@ -151,5 +151,8 @@ switch (mani,ram){
         case ram>70  :
 	console.log("b")
 }
-	}
+	
   	
+	
+	
+	

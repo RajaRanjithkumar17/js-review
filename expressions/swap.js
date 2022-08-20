@@ -57,11 +57,19 @@ if (num4>num1){
 
 
 
+
+
+
+
+-
+
+
+
 	
 		
 // Quadratic equation
 //  example let 6x**2-17x+12=0
-var a=6;
+var a=4;
 var  b=17;
 var  c=12;
 var root = Math.sqrt(b*b -4*a*c);
@@ -105,3 +113,49 @@ if  (number3>number1){
 	      else (number3>number2)
 {console.log(number1)}}
 else {console.log(number3)}
+
+
+//check number is greater then 10
+var random1=20;
+var random2=2;
+var random3=17;
+if(random1>10){	console.log(random1 +"is greater then 10");}
+	else{console.log(random1 +"is less then 10");}
+
+if(random2>10){	console.log(random2 +"is greater then 10");}
+	else{console.log(random2 +"is less then 10");}
+
+if(random3>10){	console.log(random3 +"is greater then 10");}
+	else{console.log(random3 +"is greater then 10");}	
+	
+	
+//grade system
+	var raam =83;
+	var manii=94;
+	var vijay=77;
+	if(vijay>90){
+	console.log("s")}
+		else if(vijay>80){
+		console.log("a")}
+		else if(vijay>70){
+		console.log("b")}
+	
+	else{console.log("none of the above")}
+
+	if(raam>90){
+		console.log("s")}
+			else if(raam>80){
+			console.log("a")}
+			else if(raam>70){
+			console.log("b")}
+		
+		else{console.log("none of the above")}
+
+		if(manii>90){
+			console.log("s")}
+				else if(manii>80){
+				console.log("a")}
+				else if(manii>70){
+				console.log("b")}
+			
+			else{console.log("none of the above")}
