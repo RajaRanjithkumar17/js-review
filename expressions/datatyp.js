@@ -97,7 +97,9 @@ var P=10000;
 var r=0.1;
 var t=6;
 var Interest = P*r*t;
-console.log(Interest);
+console.log(Interest
+
+
 
 
 
@@ -119,8 +121,8 @@ console.log(average );
 
 // check number is positive or not
 var number=-1
-if(number>0){console.log("positive");}
-else{console.log("not");}
+if(number>0){console.log("positive")}
+else{console.log("not")}
 
 
 // Number even or odd
@@ -150,3 +152,4 @@ switch (mani,ram){
 	console.log("b")
 }
 	}
+  	
