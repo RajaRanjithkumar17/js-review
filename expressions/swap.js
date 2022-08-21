@@ -61,7 +61,7 @@ if (num4>num1){
 
 
 
--
+
 
 
 
@@ -77,42 +77,6 @@ var donom=(2*a);
 var root1= (-b +root)/denom;
 var root2=(-b -root)/denom;
 console.log(root1,root2);
-
-
-
-//ascennding and desending order
-
-var number1=10;
-var number2=30;
-var number3=25;
-if  (number1>number2){
-		if(number1>number3){
-	console.log(number1)
-}}
-	      else if(number1>number3)
-		  {console.log(number2)}
-else {console.log(number1)}
-	
-	
-	
-	
-	
-if  (number2>number1){
-		if(number2>number3){
-	console.log(number3)
-}}
-	      else if(number2>number3)
-		  {console.log(number3)}
-else {console.log(number2)}
-	
-
-if  (number3>number1){
-		if(number3>number2){
-	console.log(number1)
-}
-	      else (number3>number2)
-{console.log(number1)}}
-else {console.log(number3)}
 
 
 //check number is greater then 10
@@ -159,3 +123,78 @@ if(random3>10){	console.log(random3 +"is greater then 10");}
 				console.log("b")}
 			
 			else{console.log("none of the above")}
+
+//number multiple of 7 and compare two numbers
+var numb=15;
+var numb1=14;
+var numb2=21;
+if(numb%7==0){ 
+	console.log(numb +"is multiple of 7")
+}
+else{ 
+	console.log(numb +"is not multiple of 7")
+}
+if(numb1 %7==0){ 
+	console.log(numb1 +"is multiple of 7")
+}
+else{ 
+	console.log(numb1 +"is not multiple of 7")
+}
+if(numb2%7==0){ 
+	console.log(numb2 +"is multiple of 7")
+}
+else{ 
+	console.log(numb2 +"is not multiple of 7")
+}
+
+
+//descending order
+
+var l=55;
+var m=56;
+var n =43;
+if(l>m  && l>n){
+	if(m>n)
+	console.log(l ,m, n);
+	else{console.log(l,n,m)}
+}
+
+	else if(m>l&&m>n){
+		if(l>n){console.log( m,l,n)}
+		else{console.log( m,n,l)}
+	
+	}
+	else if(n>l&&n>m){
+		if(l>m){console.log(n,l,m)}
+		else{console.log(n,m,l)}
+		
+	}
+
+
+// ascending order
+
+
+var l=55;
+var m=56;
+var n =43;
+if (l<m&&l<n){
+	if(m<n){ console.log(l,m,n)}
+	else{console.log(l,n,m)}
+}
+else if(m<n&&m<l){
+	if(n<l){console.log(m,n,l)}
+	else{console.log(m,n,l)}
+}
+else if(n<l&&n<m){
+	if(l<m){ console.log(n,l,m)}
+	else{console.log(n,m,l)}
+}
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@ var y='status';
 var z="";
 var z=[1,2,3,4]
 
-console.log(1>2 && 1<2
+console.log(1>2 && 1<2)
 
 
 
@@ -97,7 +97,7 @@ var P=10000;
 var r=0.1;
 var t=6;
 var Interest = P*r*t;
-console.log(Interest
+console.log(Interest)
 
 
 
