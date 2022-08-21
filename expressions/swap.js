@@ -73,7 +73,7 @@ var a=4;
 var  b=17;
 var  c=12;
 var root = Math.sqrt(b*b -4*a*c);
-var donom=(2*a);
+var denom=(2*a);
 var root1= (-b +root)/denom;
 var root2=(-b -root)/denom;
 console.log(root1,root2);
@@ -183,7 +183,7 @@ if (l<m&&l<n){
 }
 else if(m<n&&m<l){
 	if(n<l){console.log(m,n,l)}
-	else{console.log(m,n,l)}
+	else{console.log(m,l,n)}
 }
 else if(n<l&&n<m){
 	if(l<m){ console.log(n,l,m)}
