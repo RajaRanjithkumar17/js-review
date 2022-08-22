@@ -1,0 +1,103 @@
+body{
+background: linear-gradient(120deg, #1676b6, #3e35e000);
+}
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.details{
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #1676b7;
+}
+
+.login{
+    margin-top: 100px;
+    padding-left: 20px;
+  
+  
+}
+.user-input{
+    display: block;
+    width: 80%;
+    padding: 10px;
+  
+   
+ 
+}
+.user-input{
+    background: #1da1f2;
+   outline: #0c0d0d;
+   text-decoration: none;
+    font-size: 14px;
+
+
+    
+}
+.text-box{
+    width: 100%;
+    margin-top: 20px;
+  
+
+}
+
+
+ .icon{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #446981;
+    font-size: 48px;
+    margin: 1px auto 50px ;
+    position: absolute;
+    left: 46%;
+    top: 70px;
+    
+} 
+
+.btn {display: flex;
+justify-content: center;
+align-items: center;
+}
+button{
+    color: #0c0d0d;
+    margin-top: 20px;
+    background: #1da1f2;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    font-weight: 600;
+    /* box-shadow:  5px 5px 5px #cdced1,-5px -5px 5px #fff; */
+    border: none;
+}
+p{
+    display: inline-block;
+    font-size: 14px;
+   
+}
+
+.text-box a{
+    display: inline-block;
+    font-size: 14px;
+  
+    text-decoration: none;
+    padding-left: 150px;
+}
+.text-box input{
+    margin-left: 20px;
+}
