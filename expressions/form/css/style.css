@@ -25,24 +25,41 @@ background: linear-gradient(120deg, #1676b6, #3e35e000);
     margin-top: 100px;
     padding-left: 20px;
   
-  
 }
-.user-input{
-    display: block;
-    width: 80%;
-    padding: 10px;
-  
-   
- 
+.login input{
+    border: 1px solid #1676b7;
 }
-.user-input{
-    background: #1da1f2;
-   outline: #0c0d0d;
-   text-decoration: none;
-    font-size: 14px;
-
-
+.login .user-input   {
     
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    background: #1da1f2;
+    outline: none;
+    font-size: 14px;
+     position: relative;
+     
+   
+}
+
+/* .login i{display: inline-block;} */
+.login i{
+    position: absolute;
+    top: 52%;
+    background-color: #2e638c;
+ left: 0;
+    font-size: 38px;
+    margin-left: 20px;
+    color: #191e21;
+}
+.mail-icon i{
+    position: absolute;
+    top: 33%;
+    background-color: #2e638c;
+ left: 0;
+    font-size: 39px;
+    margin-left: 20px;
+    color: #191e21;
 }
 .text-box{
     width: 100%;
@@ -61,7 +78,7 @@ background: linear-gradient(120deg, #1676b6, #3e35e000);
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #446981;
+    background-color: #70b7e6;
     font-size: 48px;
     margin: 1px auto 50px ;
     position: absolute;
