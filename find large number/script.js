@@ -1,13 +1,4 @@
-var n=8;
-for(i=n;i>=10;i--){
-console.log(i+"n"+(n-1))}
-var prime=5;
-while(prime%2==0){
-console.log(prime+"is prime number")
-prime++; console.log(prime+"is not prime nomber")}
-	
-
-// find large number
+//find large number
 var    a1=10;
 var a2=12;
 var a3=7;
@@ -19,10 +10,9 @@ if (a1>a2&&a1>a3&&a1>a4){
 		console.log(a1,a2,a3,a4)
 	}
 	else{console.log(a1,a2,a4,a3)}}
-  else{console.log(a1,a3,a2,a4)}
+    else{console.log(a1,a3,a2,a4)}
 	
 }
-
 	
 	else if(a2>a3&&a2>a4&&a2>a1){
 		if(a3>a4&&a3>a1){
@@ -48,3 +38,9 @@ if (a1>a2&&a1>a3&&a1>a4){
     else{console.log(a4,a2,a1,a3)}
 }
 		
+else{console.log(a1,a3,a4,a2)}
+
+
+
+
+
