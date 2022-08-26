@@ -1,8 +1,7 @@
 //for(initial;condition;increment/decrement)
 
 //print 20 number in sequence
-for(var x=0; x<=20;x++)
-{console.log(x)}	
+  	
 
 //print 20 number in reverse order
 for(y=20; y>0; y--)
@@ -78,14 +77,8 @@ n1=n2;
 n2=n3;
 } 
 //calculate average of given number
-var number1=20;
-var number2=23;
-var number3;
-for(i=1; i<=1; i++){
-console.log(number3);
-number3=(number1+number2)/2;
-}
-	
+
+
 
 
 
@@ -117,6 +110,66 @@ console.log( reformattedArray);
 var array=[10,20,20]
 array.indexOf(20)
 console.log(array);
+
+
+
+
+
+
+
+
+
+
+var a=4444443;
+var b = 265765;
+var c=365578;
+if(a>b&&a>c)
+{if (b>c)
+	{console.log(a,b,c)}
+	
+else{console.log(a,c,b)}
+	}
+	else if(b>a&&b>c){
+		if (a>c)
+		{
+			console.log(b,a,c)
+			
+		}else{
+			console.log(b,c,a)
+		}
+		
+	}
+	else if(c>a&&c>b)
+	{
+		if(a>b)
+		{
+		console.log(c,a,b);
+		
+	}
+	else{
+		console.log(c,b,a);
+	}
+	}
+
+	//
+	
+	
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
