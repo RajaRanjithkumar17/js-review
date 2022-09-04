@@ -4,3 +4,10 @@ for(i=0;i<=add.length;i++){
 num+=(add[i]);
 console.log(num)
 }
+
+
+//indexOf()
+const paragraph= "the amount of electric energy conduct per unit area";
+const search=prompt("enter any word");
+const result=paragraph.indexOf(search)
+ **/*-

@@ -1,7 +1,11 @@
+
+
+
 //for(initial;condition;increment/decrement)
 
 //print 20 number in sequence
-  	
+for(var x=0; x<=20;x++)
+{console.log(x)}	
 
 //print 20 number in reverse order
 for(y=20; y>0; y--)
@@ -150,8 +154,80 @@ else{console.log(a,c,b)}
 		console.log(c,b,a);
 	}
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// even number addition
 
-	//
+	var number1=prompt("enter any numbers")
+	var temp=0;
+	while(number1!=0){
+		if(number1%2==0){
+			temp=number1;
+		}
+		number1 =Math.floor(number1/10);
+		
+	}
+	console.log(temp);
+		
+
+
+
+
+//functions
+
+
+
+function prime(n){
+	n==1||n==0;
+	return 1;
+}
+if(n>1){
+	 n%0==0; 
+	 num+=n; 
+	if (num==2){
+		console.log(num);
+		}
+}
+const num=prime(4);
+console.log(num);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	 

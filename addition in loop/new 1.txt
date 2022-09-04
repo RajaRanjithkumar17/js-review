@@ -1,11 +1,14 @@
-var num=prompt('enter any number')
+
+
+
+	var num=prompt('enter any number')
 if(num==1){
 console.log (num +""+"is not prime number")}
 else if(num>1){
 for(i=0;i<num;i++){
-if (num%2==0){
+if (num %==0){
 console.log(num +""+ "is prime number")
 }
 else{ console.log(num +""+ "is not prime number")}
-}
-}
+}}
+  
